@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles/normalize.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles/style.css">
+  <title>CandyNails</title>
+</head>
+<body>
+  <header>
+    <div><h1>CANDY NAILS</h1></div>
+    <nav>      
+      <div> 
+          <a href="#contenedor-productos">Productos</a>
+          <a href="#portfolio ">Eventos</a>
+          <a href="#footer">Nosotros</a>
+      </div>
+    </nav>
+
+  </header>
+
+
+     <main id="contenedor-productos">
+       <!--Fin container-header-icons-->
+        <!--<div class="producto">
+        <img src=../imgs/pintaU5.jpg alt="imagen">
+        <h3>SOLTERA</h3>
+        <p>Perfecto para tí</p>
+        <p>L</p>
+        <p class="PrecioProducto">Precio:5990</p>
+        <button id="agregar5" class="boton-agregar">Agregar <i class fas-fa-shopping-cart></i></button>
+      </div>-->
+     </main>
+
+     <div class="modal-contenedor">
+        <div class="modal-carrito"> <!-- OJO no sé que lleva-->
+          <div class=" ctn-titles-modal">
+              <div>CARRITO DE COMPRAS</div><div><button id="boton-vaciar">Vaciar carrito</button></div>
+          </div>
+          
+          <div id="carrito-contenedor">
+              <div id="encabezado">
+                <div>Referencia</div>
+                <div>Producto</div>
+                <div>Descripción</div>
+                <div>cantidad</div>
+                <div>Precio Unitario</div>
+                <div>subtotal</div>
+                <div> </div>
+              </div>
+          <!---
+              Aqui van a ir listado los productos del carrito
+          -->
+          </div>
+          <div id="total">Precio total: $ <span id="precio-total">0</span><button id="btn-pay">Checkout</button></div>
+
+        </div>
+     </div>
+      
+<footer>
+  Hecho con amor by PAOLA TORRES
+</footer>  
+</body>
+
+<script src="./scripts/script.js"></script>
+</html>
